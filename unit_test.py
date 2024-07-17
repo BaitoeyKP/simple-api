@@ -12,6 +12,11 @@ class AppTestCase(unittest.TestCase):
         # test hello
         res = app.hello(1)
         self.assertEqual(res, "Hello, 1")
+        
+    # def test_hello_with_CE(self):
+    #     # test hello
+    #     res = app.hello('ce')
+    #     self.assertEqual(res, "Hello, CE")
 
 if __name__ == "__main__":
     unittest.main()
